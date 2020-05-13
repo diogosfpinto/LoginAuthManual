@@ -3,21 +3,12 @@ package com.diogopinto.loginauthmanual;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class HomePageActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-    }
-
-    public void criarConta(View view){
-
-    }
-
-    public void login(View view){
-
+        setContentView(R.layout.activity_home_page);
     }
 }
